@@ -40,17 +40,6 @@ This project is a test automation framework for [IMDb](https://www.imdb.com) bui
 
 ## Running Tests
 
-You can use the npm scripts configured in `package.json`:
-
-```bash
-npm test              # Runs all tests
-npm run test:chromium # Runs tests on Chromium
-npm run test:ff       # Runs tests on Firefox
-npm run test:safari   # Runs tests on WebKit
-```
-
-Or run via Playwright CLI directly:
-
 Run all tests in headless mode:
 ```bash
 npx playwright test
@@ -71,7 +60,5 @@ npx playwright test --ui
 If a test fails, a screenshot is captured automatically. To view the HTML report after a run:
 
 ```bash
-npm run test:report
-# or
 npx playwright show-report
 ```

@@ -1,0 +1,15 @@
+{
+  "name": "playwrightpractice",
+  "version": "1.0.0",
+  "scripts": {
+  "test": "playwright test",
+  "test:chromium": "playwright test --project=chromium",
+  "test:ff": "playwright test --project=firefox",
+  "test:safari": "playwright test --project=webkit",
+  "test:report": "playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.0",
+    "@types/node": "^25.0.10"
+  }
+}
